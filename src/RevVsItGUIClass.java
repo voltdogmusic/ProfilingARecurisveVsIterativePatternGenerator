@@ -16,6 +16,7 @@ The efficiency of each implementation type is calculated as follows:
 //for the iterative version, the efficiency variable is defined as the number of loops to compute the sequence
 
 Upon exiting the program, a csv file will be generated with the corresponding efficiency of each of the methods.
+
 */
 
 
@@ -191,8 +192,10 @@ public class RevVsItGUIClass extends JFrame {
 
                 PrintWriter pw = null;
                 try {
+
                     String userHome = System.getProperty("user.home") + "/Desktop";
                     pw = new PrintWriter(new File(userHome + "/RecursiveVsIterative.csv")); //will create csv file
+
 
                 } catch (FileNotFoundException e) {
                     JOptionPane.showMessageDialog(nTextField, "The output file must be closed to write to it and close the program", "Error", JOptionPane.ERROR_MESSAGE);
@@ -212,6 +215,11 @@ public class RevVsItGUIClass extends JFrame {
                 pw.close();
             }
         });
+    }
+
+
+    public static void main(String[] args) {
+        RevVsItGUIClass guiObj = new RevVsItGUIClass();
     }
 }
 
