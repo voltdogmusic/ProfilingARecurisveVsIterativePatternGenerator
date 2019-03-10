@@ -4,6 +4,10 @@ Thomas Lee
 This program compares an iterative and recursive implementation of a function that
 produces a sequence of numbers, ie: 0 1 2 5 12 29 ... where each term of the sequence is twice the previous term plus the term before the previous term. f(n) = 2(n-1)+n-2
 
+To Use:
+Input the number of terms to calculate, select an implementation type, click compute.
+
+
 The efficiency of each implementation type is calculated as follows:
 
 //Efficiency Variable Definition:

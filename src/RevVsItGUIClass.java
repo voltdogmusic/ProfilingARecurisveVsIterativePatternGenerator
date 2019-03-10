@@ -47,7 +47,7 @@ public class RevVsItGUIClass extends JFrame {
     private JTextField resultTextField = new JTextField();
     private JTextField efficiencyTextField = new JTextField();
 
-    private JLabel enterNLabel = new JLabel("Enter n ");
+    private JLabel enterNLabel = new JLabel("Terms to calculate  ");
     private JLabel resultLabel = new JLabel("Result ");
     private JLabel efficiencyLabel = new JLabel("Efficiency ");
 
